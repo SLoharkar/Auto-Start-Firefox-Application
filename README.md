@@ -12,15 +12,19 @@
 - Required Less Knowledge to Run & Execute
 
 ## Installation
-- Just, Clone this repository -
+- Just, Clone this repository - 
+````bash 
+https://github.com/SLoharkar/Auto-Start-Firefox-Application.git
+````
 - Download Specific File of Firefox Start or Firefox Stop
 
-````Copy Firefox Start Code
+- Copy Firefox Start Code
+````bash
 @echo off
 start /min firefox.exe
 ````
-
-````Copy Firefox Stop Code
+- Copy Firefox Stop Code
+````bash
 @echo off
 taskkill /IM firefox.exe /F
 ````
