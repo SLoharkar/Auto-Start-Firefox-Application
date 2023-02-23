@@ -17,19 +17,22 @@
 https://github.com/SLoharkar/Auto-Start-Firefox-Application.git
 ````
 - Download Specific File of Firefox Start or Firefox Stop
-
-- Copy Firefox Start Code
+- Firefox Start & Stop Copy Code and Paste on Command Prompt 
+-- Copy Firefox Start Code
 ````bash
 @echo off
 start /min firefox.exe
 ````
-- Copy Firefox Stop Code
+-- Copy Firefox Stop Code
 ````bash
 @echo off
 taskkill /IM firefox.exe /F
 ````
 
+
 ## Dependencies
 - `Windows OS`
+- `Mozila Firefox`
+- `Command Prompt`
 
 > Supported Platform : **`Windows 7,8,10 & 11`**, **`Microsoft Server 2016 & 2019`**
