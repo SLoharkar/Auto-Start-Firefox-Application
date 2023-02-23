@@ -12,8 +12,18 @@
 - Required Less Knowledge to Run & Execute
 
 ## Installation
+- Just, Clone this repository -
+- Download Specific File of Firefox Start or Firefox Stop
 
+````Copy Firefox Start Code
+@echo off
+start /min firefox.exe
+````
 
+````Copy Firefox Stop Code
+@echo off
+taskkill /IM firefox.exe /F
+````
 
 ## Dependencies
 - `Windows OS`
